@@ -1,0 +1,64 @@
+/* General body styling for login page */
+body.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('/static/images/login.jpg'); /* Background image for login page */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Container for login page */
+.login-container {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+    text-align: center;
+    width: 300px; /* Fixed width */
+}
+
+/* Form elements styling for login */
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container label, .login-container input {
+    margin-bottom: 10px;
+    width: 100%; /* Full width */
+}
+
+.login-container input[type="text"], 
+.login-container input[type="password"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-container input[type="submit"] {
+    background-color: #4CAF50; /* Green background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-container input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.login-container a {
+    color: #4CAF50; /* Link color */
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

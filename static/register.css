@@ -1,0 +1,65 @@
+/* General body styling for registration page */
+body.register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('/static/images/login.jpg'); /* Background image for registration page */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Container for registration page */
+.register-container {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+    text-align: center;
+    width: 300px; /* Fixed width */
+}
+
+/* Form elements styling for registration */
+.register-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-container label, .register-container input {
+    margin-bottom: 10px;
+    width: 100%; /* Full width */
+}
+
+.register-container input[type="text"], 
+.register-container input[type="password"], 
+.register-container input[type="email"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.register-container input[type="submit"] {
+    background-color: #4CAF50; /* Green background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.register-container input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.register-container a {
+    color: #4CAF50; /* Link color */
+    text-decoration: none;
+}
+
+.register-container a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

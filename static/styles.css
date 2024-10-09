@@ -1,0 +1,66 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Table styling */
+.table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.table th, .table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.table td {
+    background-color: #fff;
+}
+
+.table th, .table td {
+    text-align: left;
+}
+
+/* Button styling */
+.get-started-btn, .logout-btn, .see-more-btn {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.get-started-btn {
+    background-color: #4CAF50; /* Green background */
+}
+
+.get-started-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.logout-btn {
+    background-color: #f44336;
+}
+
+.logout-btn:hover {
+    background-color: #e53935;
+}
+
+.see-more-btn {
+    background-color: #4CAF50;
+}
+
+.see-more-btn:hover {
+    background-color: #45a049;
+}
