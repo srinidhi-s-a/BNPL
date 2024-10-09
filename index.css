@@ -1,0 +1,53 @@
+/* General body styling for index page */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-image: url('/static/images/back.jpg'); /* Path to your background image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    background-attachment: fixed; /* Fix the background image in place */
+    height: 100vh; /* Ensure it covers the viewport height */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Welcome message container */
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8); /* Optional: Add a slight background to make the text more readable */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Title styling */
+.welcome-container h1 {
+    font-size: 48px;
+    color: #333; /* Darker text color */
+    margin: 0; /* Remove default margin */
+    border: none; /* Remove any border */
+    box-shadow: none; /* Remove any box-shadow */
+}
+
+/* Button styling */
+.get-started-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.get-started-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
